@@ -5,25 +5,25 @@ end
 
 def using_sort(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    array.sort?
+    array.sort(element)
 end
 
 def using_reverse(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    array.using_reverse?
+    array.reverse(element)
 end
 
 def using_first(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    array.using_first?
+    array.first(element)
 end
 
 def using_last(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    array.using_last?
+    array.last(element)
 end
 
 def using_size(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    array.using_size?
+    array.size(element)
 end
